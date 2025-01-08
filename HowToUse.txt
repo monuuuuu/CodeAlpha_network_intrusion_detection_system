@@ -1,0 +1,24 @@
+1. Download this file "nids.py".
+
+2. Install python 3 (if allready not installed).
+sudo apt install python3 
+
+3. Install Scapy
+sudo pip3 install scapy
+
+4. Replace the interface variable in the script with your active network interface name.
+   example : interface = "wlan0"
+             interface = "eth0"
+
+5. Run the Script with administrative/sudo privilages.
+sudo python3 nids.py
+
+6. Start genrating network traffic by
+   ping google.com
+   or 
+   browsing anything on internet
+
+7. you can see the output in terminal now.
+
+8. To exit the program press CTRL+C.
+
